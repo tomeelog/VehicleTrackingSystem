@@ -1,0 +1,15 @@
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.deps.json
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.csprojAssemblyReference.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.AssemblyInfo.cs
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.runtimeconfig.json
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.runtimeconfig.dev.json
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.csproj.CopyComplete
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.genruntimeconfig.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.DataAccess\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.DataAccess.csproj.CoreCompileInputs.cache

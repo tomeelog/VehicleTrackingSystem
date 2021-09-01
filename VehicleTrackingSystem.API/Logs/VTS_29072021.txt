@@ -1,0 +1,736 @@
+2021-07-29 11:21:57.726 +01:00 [DBG] Hosting starting
+2021-07-29 11:21:59.631 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-29 11:21:59.738 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-29 11:21:59.947 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-29 11:21:59.949 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-29 11:21:59.950 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-29 11:21:59.958 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-29 11:21:59.962 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-29 11:21:59.962 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-29 11:21:59.962 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-29 11:21:59.972 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-29 11:21:59.981 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:21:59.984 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-29 11:21:59.986 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:21:59.990 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-29 11:21:59.993 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-29 11:21:59.997 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-29 11:21:59.998 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-29 11:22:01.398 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2021-07-29 11:22:02.143 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 995EFA483E34395BB2A6976B2CD248318A56AC0E)
+2021-07-29 11:22:02.447 +01:00 [INF] Now listening on: https://localhost:5001
+2021-07-29 11:22:02.448 +01:00 [INF] Now listening on: http://localhost:5000
+2021-07-29 11:22:02.478 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-29 11:22:02.479 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 11:22:02.479 +01:00 [INF] Hosting environment: Development
+2021-07-29 11:22:02.479 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-29 11:22:02.479 +01:00 [DBG] Hosting started
+2021-07-29 11:22:02.769 +01:00 [DBG] Connection id "0HMAIFAQHPHVK" received FIN.
+2021-07-29 11:22:02.807 +01:00 [DBG] Connection id "0HMAIFAQHPHVK" accepted.
+2021-07-29 11:22:02.810 +01:00 [DBG] Connection id "0HMAIFAQHPHVK" started.
+2021-07-29 11:22:04.522 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 11:22:05.590 +01:00 [DBG] Connection id "0HMAIFAQHPHVK" stopped.
+2021-07-29 11:22:05.595 +01:00 [DBG] Connection id "0HMAIFAQHPHVK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 11:22:07.854 +01:00 [DBG] Connection id "0HMAIFAQHPHVL" accepted.
+2021-07-29 11:22:07.855 +01:00 [DBG] Connection id "0HMAIFAQHPHVL" started.
+2021-07-29 11:22:08.487 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-29 11:22:08.514 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 11:22:08.559 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-29 11:22:08.559 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:22:08.657 +01:00 [INF] Request finished in 172.7855ms 200 text/html;charset=utf-8
+2021-07-29 11:22:09.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-29 11:22:09.168 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-29 11:22:09.168 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:22:09.281 +01:00 [INF] Request finished in 114.3661ms 200 application/json;charset=utf-8
+2021-07-29 11:22:35.258 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/Login application/json 41
+2021-07-29 11:22:35.267 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-29 11:22:35.272 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-29 11:22:35.272 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:22:35.273 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:22:35.284 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-29 11:22:36.037 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Request.LoginObject) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-29 11:22:36.037 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 11:22:36.038 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-29 11:22:36.038 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 11:22:36.038 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 11:22:36.038 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 11:22:36.040 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:22:36.821 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-29 11:22:36.849 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:22:36.932 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:22:36.936 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' using the name '' in request data ...
+2021-07-29 11:22:36.936 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-29 11:22:36.940 +01:00 [DBG] Connection id "0HMAIFAQHPHVL", Request id "0HMAIFAQHPHVL:00000005": started reading request body.
+2021-07-29 11:22:36.940 +01:00 [DBG] Connection id "0HMAIFAQHPHVL", Request id "0HMAIFAQHPHVL:00000005": done reading request body.
+2021-07-29 11:22:36.943 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'
+2021-07-29 11:22:36.944 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:22:36.944 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:22:36.944 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:22:36.947 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:22:37.167 +01:00 [INF] Executing action method VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) - Validation state: "Valid"
+2021-07-29 11:22:47.001 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-29 11:22:47.454 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:22:47.492 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:22:49.008 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1511ms).
+2021-07-29 11:22:49.015 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:49.887 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:49.897 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:22:49.970 +01:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:22:50.018 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:22:50.053 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:22:50.058 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:50.068 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:56.538 +01:00 [DBG] queryContext => new QueryingEnumerable<UserType>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, UserType>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:22:56.577 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:22:56.577 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-29 11:22:56.577 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:56.578 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:56.579 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:22:56.814 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:22:56.818 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:22:56.830 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:22:56.831 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:22:56.831 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:22:56.831 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:24:48.433 +01:00 [DBG] Hosting starting
+2021-07-29 11:24:48.662 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-29 11:24:48.691 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-29 11:24:48.731 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-29 11:24:48.733 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-29 11:24:48.734 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-29 11:24:48.742 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-29 11:24:48.746 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-29 11:24:48.746 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-29 11:24:48.746 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-29 11:24:48.755 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-29 11:24:48.765 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:24:48.768 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-29 11:24:48.771 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:24:48.775 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-29 11:24:48.779 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-29 11:24:48.783 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-29 11:24:48.783 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-29 11:24:49.133 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2021-07-29 11:24:49.250 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 995EFA483E34395BB2A6976B2CD248318A56AC0E)
+2021-07-29 11:24:49.336 +01:00 [INF] Now listening on: https://localhost:5001
+2021-07-29 11:24:49.336 +01:00 [INF] Now listening on: http://localhost:5000
+2021-07-29 11:24:49.336 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-29 11:24:49.361 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 11:24:49.362 +01:00 [INF] Hosting environment: Development
+2021-07-29 11:24:49.362 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-29 11:24:49.362 +01:00 [DBG] Hosting started
+2021-07-29 11:24:49.442 +01:00 [DBG] Connection id "0HMAIFCC78SAG" accepted.
+2021-07-29 11:24:49.442 +01:00 [DBG] Connection id "0HMAIFCC78SAH" accepted.
+2021-07-29 11:24:49.475 +01:00 [DBG] Connection id "0HMAIFCC78SAH" started.
+2021-07-29 11:24:49.475 +01:00 [DBG] Connection id "0HMAIFCC78SAG" started.
+2021-07-29 11:24:49.555 +01:00 [DBG] Connection id "0HMAIFCC78SAG" received FIN.
+2021-07-29 11:24:49.555 +01:00 [DBG] Connection id "0HMAIFCC78SAH" received FIN.
+2021-07-29 11:24:49.615 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 11:24:49.615 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 11:24:49.730 +01:00 [DBG] Connection id "0HMAIFCC78SAG" stopped.
+2021-07-29 11:24:49.730 +01:00 [DBG] Connection id "0HMAIFCC78SAH" stopped.
+2021-07-29 11:24:49.734 +01:00 [DBG] Connection id "0HMAIFCC78SAH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 11:24:49.735 +01:00 [DBG] Connection id "0HMAIFCC78SAG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 11:24:53.194 +01:00 [DBG] Connection id "0HMAIFCC78SAI" accepted.
+2021-07-29 11:24:53.195 +01:00 [DBG] Connection id "0HMAIFCC78SAI" started.
+2021-07-29 11:24:53.450 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-29 11:24:53.455 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 11:24:53.505 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-29 11:24:53.506 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:24:53.589 +01:00 [INF] Request finished in 142.4202ms 200 text/html;charset=utf-8
+2021-07-29 11:24:54.040 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-29 11:24:54.041 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-29 11:24:54.041 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:24:54.213 +01:00 [INF] Request finished in 173.3639ms 200 application/json;charset=utf-8
+2021-07-29 11:24:59.870 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/Login application/json 41
+2021-07-29 11:24:59.878 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-29 11:24:59.882 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-29 11:24:59.883 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:24:59.884 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:24:59.893 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-29 11:24:59.928 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Request.LoginObject) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-29 11:24:59.929 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 11:24:59.929 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-29 11:24:59.929 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 11:24:59.930 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 11:24:59.930 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 11:24:59.931 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:25:00.123 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-29 11:25:00.154 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:25:00.176 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:25:00.178 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' using the name '' in request data ...
+2021-07-29 11:25:00.179 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-29 11:25:00.183 +01:00 [DBG] Connection id "0HMAIFCC78SAI", Request id "0HMAIFCC78SAI:00000005": started reading request body.
+2021-07-29 11:25:00.183 +01:00 [DBG] Connection id "0HMAIFCC78SAI", Request id "0HMAIFCC78SAI:00000005": done reading request body.
+2021-07-29 11:25:00.188 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'
+2021-07-29 11:25:00.188 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:25:00.188 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:25:00.188 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:25:00.191 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:25:00.404 +01:00 [INF] Executing action method VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) - Validation state: "Valid"
+2021-07-29 11:25:08.224 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-29 11:25:08.420 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:25:08.457 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:25:08.519 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (55ms).
+2021-07-29 11:25:08.528 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:09.078 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:09.090 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:25:09.140 +01:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:25:09.191 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:25:09.224 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:25:09.228 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:09.237 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:12.595 +01:00 [DBG] queryContext => new QueryingEnumerable<UserType>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, UserType>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:25:12.596 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:25:12.596 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-29 11:25:12.596 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:12.597 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:12.598 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:25:12.655 +01:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:25:12.658 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:25:12.673 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:25:12.673 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:25:12.673 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:25:12.673 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:44:38.019 +01:00 [DBG] Hosting starting
+2021-07-29 11:44:38.324 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-29 11:44:38.352 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-29 11:44:38.388 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-29 11:44:38.389 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-29 11:44:38.390 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-29 11:44:38.397 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-29 11:44:38.401 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-29 11:44:38.401 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-29 11:44:38.401 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-29 11:44:38.409 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-29 11:44:38.417 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:44:38.420 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-29 11:44:38.422 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 11:44:38.427 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-29 11:44:38.431 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-29 11:44:38.435 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-29 11:44:38.435 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-29 11:44:38.711 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2021-07-29 11:44:38.893 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 995EFA483E34395BB2A6976B2CD248318A56AC0E)
+2021-07-29 11:44:38.970 +01:00 [INF] Now listening on: https://localhost:5001
+2021-07-29 11:44:38.970 +01:00 [INF] Now listening on: http://localhost:5000
+2021-07-29 11:44:38.970 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-29 11:44:38.970 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 11:44:38.970 +01:00 [INF] Hosting environment: Development
+2021-07-29 11:44:38.971 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-29 11:44:38.971 +01:00 [DBG] Hosting started
+2021-07-29 11:44:39.127 +01:00 [DBG] Connection id "0HMAIFNEOMGH5" accepted.
+2021-07-29 11:44:39.127 +01:00 [DBG] Connection id "0HMAIFNEOMGH4" accepted.
+2021-07-29 11:44:39.129 +01:00 [DBG] Connection id "0HMAIFNEOMGH5" received FIN.
+2021-07-29 11:44:39.129 +01:00 [DBG] Connection id "0HMAIFNEOMGH4" received FIN.
+2021-07-29 11:44:39.285 +01:00 [DBG] Connection id "0HMAIFNEOMGH5" started.
+2021-07-29 11:44:39.285 +01:00 [DBG] Connection id "0HMAIFNEOMGH4" started.
+2021-07-29 11:44:39.352 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 11:44:39.352 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 11:44:39.436 +01:00 [DBG] Connection id "0HMAIFNEOMGH5" stopped.
+2021-07-29 11:44:39.436 +01:00 [DBG] Connection id "0HMAIFNEOMGH4" stopped.
+2021-07-29 11:44:39.439 +01:00 [DBG] Connection id "0HMAIFNEOMGH5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 11:44:39.439 +01:00 [DBG] Connection id "0HMAIFNEOMGH4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 11:44:41.567 +01:00 [DBG] Connection id "0HMAIFNEOMGH6" accepted.
+2021-07-29 11:44:41.568 +01:00 [DBG] Connection id "0HMAIFNEOMGH6" started.
+2021-07-29 11:44:41.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-29 11:44:41.807 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 11:44:41.873 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-29 11:44:41.874 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:44:41.971 +01:00 [INF] Request finished in 172.0447ms 200 text/html;charset=utf-8
+2021-07-29 11:44:42.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-29 11:44:42.482 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-29 11:44:42.482 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 11:44:42.673 +01:00 [INF] Request finished in 192.053ms 200 application/json;charset=utf-8
+2021-07-29 11:44:52.416 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/Login application/json 41
+2021-07-29 11:44:52.425 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-29 11:44:52.429 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-29 11:44:52.429 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:44:52.430 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:44:52.441 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-29 11:44:52.475 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Request.LoginObject) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-29 11:44:52.476 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 11:44:52.476 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-29 11:44:52.476 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 11:44:52.476 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 11:44:52.477 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 11:44:52.479 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:44:52.641 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-29 11:44:52.668 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 11:44:52.687 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:44:52.690 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' using the name '' in request data ...
+2021-07-29 11:44:52.690 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-29 11:44:52.694 +01:00 [DBG] Connection id "0HMAIFNEOMGH6", Request id "0HMAIFNEOMGH6:00000005": started reading request body.
+2021-07-29 11:44:52.694 +01:00 [DBG] Connection id "0HMAIFNEOMGH6", Request id "0HMAIFNEOMGH6:00000005": done reading request body.
+2021-07-29 11:44:52.698 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'
+2021-07-29 11:44:52.699 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:44:52.699 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:44:52.699 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 11:44:52.702 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 11:44:52.877 +01:00 [INF] Executing action method VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) - Validation state: "Valid"
+2021-07-29 11:45:05.781 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-29 11:45:05.961 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:45:06.001 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:45:06.060 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (50ms).
+2021-07-29 11:45:06.069 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:06.590 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:06.811 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:45:06.883 +01:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 11:45:06.934 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:45:06.966 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:45:06.970 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:06.981 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:08.567 +01:00 [DBG] queryContext => new QueryingEnumerable<UserType>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, UserType>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 11:45:08.568 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 11:45:08.569 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-29 11:45:08.569 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:08.571 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:08.571 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:45:08.634 +01:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 11:45:08.638 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:45:08.653 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 11:45:08.654 +01:00 [DBG] A data reader was disposed.
+2021-07-29 11:45:08.654 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:45:08.654 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 11:47:15.317 +01:00 [INF] Executed action method VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 142435.5488ms.
+2021-07-29 11:47:15.324 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-07-29 11:47:15.327 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-07-29 11:47:15.328 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-07-29 11:47:15.328 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 11:47:15.328 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 11:47:15.328 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 11:47:15.328 +01:00 [INF] Executing ObjectResult, writing value of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-29 11:47:15.671 +01:00 [INF] Executed action VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) in 143189.468ms
+2021-07-29 11:47:15.672 +01:00 [INF] Executed endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 11:47:15.682 +01:00 [INF] Request finished in 143287.4894ms 200 application/json; charset=utf-8
+2021-07-29 20:26:44.653 +01:00 [DBG] Hosting starting
+2021-07-29 20:26:51.435 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-29 20:26:51.457 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-29 20:26:55.619 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-29 20:26:57.436 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-29 20:26:57.438 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-29 20:26:57.445 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-29 20:26:57.448 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-29 20:26:57.448 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-29 20:26:57.448 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-29 20:26:57.454 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-29 20:26:57.463 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 20:26:57.465 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-29 20:26:57.467 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 20:26:57.471 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-29 20:26:57.474 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-29 20:26:57.477 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-29 20:26:57.477 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-29 20:26:59.433 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2021-07-29 20:27:00.090 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 995EFA483E34395BB2A6976B2CD248318A56AC0E)
+2021-07-29 20:27:00.156 +01:00 [INF] Now listening on: https://localhost:5001
+2021-07-29 20:27:00.156 +01:00 [INF] Now listening on: http://localhost:5000
+2021-07-29 20:27:00.157 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-29 20:27:00.157 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 20:27:00.157 +01:00 [INF] Hosting environment: Development
+2021-07-29 20:27:00.157 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-29 20:27:00.157 +01:00 [DBG] Hosting started
+2021-07-29 20:27:00.682 +01:00 [DBG] Connection id "0HMAIORB9BF6U" accepted.
+2021-07-29 20:27:00.682 +01:00 [DBG] Connection id "0HMAIORB9BF6T" accepted.
+2021-07-29 20:27:00.695 +01:00 [DBG] Connection id "0HMAIORB9BF6U" started.
+2021-07-29 20:27:00.695 +01:00 [DBG] Connection id "0HMAIORB9BF6T" started.
+2021-07-29 20:27:00.809 +01:00 [DBG] Connection id "0HMAIORB9BF6T" received FIN.
+2021-07-29 20:27:00.951 +01:00 [DBG] Connection id "0HMAIORB9BF6U" received FIN.
+2021-07-29 20:27:01.858 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 20:27:01.858 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 20:27:05.630 +01:00 [DBG] Connection id "0HMAIORB9BF6U" stopped.
+2021-07-29 20:27:05.630 +01:00 [DBG] Connection id "0HMAIORB9BF6T" stopped.
+2021-07-29 20:27:05.633 +01:00 [DBG] Connection id "0HMAIORB9BF6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 20:27:05.633 +01:00 [DBG] Connection id "0HMAIORB9BF6U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 20:27:11.729 +01:00 [DBG] Connection id "0HMAIORB9BF6V" accepted.
+2021-07-29 20:27:11.729 +01:00 [DBG] Connection id "0HMAIORB9BF6V" started.
+2021-07-29 20:27:25.115 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-29 20:27:26.287 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 20:27:33.905 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-29 20:27:33.906 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 20:27:55.519 +01:00 [INF] Request finished in 30406.0573ms 200 text/html;charset=utf-8
+2021-07-29 20:28:01.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-29 20:28:01.391 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-29 20:28:01.391 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 20:28:22.098 +01:00 [INF] Request finished in 20707.824ms 200 application/json;charset=utf-8
+2021-07-29 20:30:34.869 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/Login application/json 41
+2021-07-29 20:30:34.879 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-29 20:30:34.884 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-29 20:30:34.884 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:30:34.885 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:30:34.894 +01:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/Login application/json 41
+2021-07-29 20:30:34.894 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-29 20:30:34.894 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-29 20:30:34.894 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:30:34.895 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:30:35.679 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-29 20:30:56.008 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Request.LoginObject) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-29 20:30:56.008 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Request.LoginObject) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 20:30:56.009 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 20:30:56.010 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 20:30:56.010 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 20:30:56.010 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 20:30:56.011 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 20:30:56.011 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 20:31:50.814 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-29 20:31:50.814 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-29 20:31:51.091 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 20:31:51.091 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-29 20:31:51.220 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 20:31:51.220 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 20:31:51.224 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' using the name '' in request data ...
+2021-07-29 20:31:51.224 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' using the name '' in request data ...
+2021-07-29 20:31:51.225 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-29 20:31:51.225 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-29 20:31:51.228 +01:00 [DBG] Connection id "0HMAIORB9BF6V", Request id "0HMAIORB9BF6V:00000007": started reading request body.
+2021-07-29 20:31:51.228 +01:00 [DBG] Connection id "0HMAIORB9BF6V", Request id "0HMAIORB9BF6V:00000005": started reading request body.
+2021-07-29 20:31:51.228 +01:00 [DBG] Connection id "0HMAIORB9BF6V", Request id "0HMAIORB9BF6V:00000007": done reading request body.
+2021-07-29 20:31:51.228 +01:00 [DBG] Connection id "0HMAIORB9BF6V", Request id "0HMAIORB9BF6V:00000005": done reading request body.
+2021-07-29 20:31:51.414 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'
+2021-07-29 20:31:51.414 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'
+2021-07-29 20:31:51.535 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:31:51.535 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:31:51.535 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:31:51.536 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:31:51.536 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 20:31:51.536 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject' ...
+2021-07-29 20:31:51.540 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:31:51.540 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Request.LoginObject'.
+2021-07-29 20:32:31.434 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-29 20:32:31.434 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-29 20:32:32.075 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 20:32:32.741 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 20:32:32.741 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 20:32:33.564 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (817ms).
+2021-07-29 20:32:33.564 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (817ms).
+2021-07-29 20:32:33.572 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:33.572 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:39.658 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:39.658 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:39.810 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 20:32:39.810 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 20:32:42.930 +01:00 [INF] Executed DbCommand (3,123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 20:32:42.930 +01:00 [INF] Executed DbCommand (3,123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-29 20:32:42.990 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:42.990 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:43.026 +01:00 [DBG] A data reader was disposed.
+2021-07-29 20:32:43.026 +01:00 [DBG] A data reader was disposed.
+2021-07-29 20:32:43.030 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.030 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.039 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.039 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.046 +01:00 [DBG] queryContext => new QueryingEnumerable<UserType>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, UserType>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-29 20:32:43.047 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 20:32:43.047 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-29 20:32:43.047 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-29 20:32:43.047 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-29 20:32:43.047 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.047 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.048 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.048 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 20:32:43.162 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.162 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 20:32:43.582 +01:00 [INF] Executed DbCommand (420ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 20:32:43.582 +01:00 [INF] Executed DbCommand (534ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[Name]
+FROM [UserType] AS [u]
+2021-07-29 20:32:43.618 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:43.618 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:43.633 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:43.633 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'UserType' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-29 20:32:43.633 +01:00 [DBG] A data reader was disposed.
+2021-07-29 20:32:43.633 +01:00 [DBG] A data reader was disposed.
+2021-07-29 20:32:43.634 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.634 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.634 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:32:43.634 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-29 20:33:34.613 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-07-29 20:33:34.613 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-07-29 20:33:34.618 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-07-29 20:33:34.618 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-07-29 20:33:34.618 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-07-29 20:33:34.618 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-07-29 20:33:34.618 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 20:33:34.618 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 20:33:34.619 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 20:33:34.619 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 20:33:34.619 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 20:33:34.619 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 20:33:34.619 +01:00 [INF] Executing ObjectResult, writing value of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-29 20:33:34.619 +01:00 [INF] Executing ObjectResult, writing value of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-29 20:33:35.087 +01:00 [INF] Executed action VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) in 159072.449ms
+2021-07-29 20:33:35.087 +01:00 [INF] Executed action VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) in 159072.3835ms
+2021-07-29 20:33:35.282 +01:00 [INF] Executed endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:33:35.282 +01:00 [INF] Executed endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-29 20:33:35.294 +01:00 [INF] Request finished in 180399.6289ms 200 application/json; charset=utf-8
+2021-07-29 20:33:35.294 +01:00 [INF] Request finished in 180425.2805ms 200 application/json; charset=utf-8
+2021-07-29 20:46:10.896 +01:00 [DBG] Hosting starting
+2021-07-29 20:46:11.486 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-29 20:46:11.551 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-29 20:46:11.655 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-29 20:46:11.656 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-29 20:46:11.657 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-29 20:46:11.664 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-29 20:46:11.669 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-29 20:46:11.669 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-29 20:46:11.669 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-29 20:46:11.677 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-29 20:46:11.687 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 20:46:11.690 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-29 20:46:11.692 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-29 20:46:11.696 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-29 20:46:11.699 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-29 20:46:11.703 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-29 20:46:11.704 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-29 20:46:12.387 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2021-07-29 20:46:12.770 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 995EFA483E34395BB2A6976B2CD248318A56AC0E)
+2021-07-29 20:46:13.141 +01:00 [INF] Now listening on: https://localhost:5001
+2021-07-29 20:46:13.196 +01:00 [INF] Now listening on: http://localhost:5000
+2021-07-29 20:46:13.197 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-29 20:46:13.197 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 20:46:13.197 +01:00 [INF] Hosting environment: Development
+2021-07-29 20:46:13.197 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-29 20:46:13.197 +01:00 [DBG] Hosting started
+2021-07-29 20:46:13.528 +01:00 [DBG] Connection id "0HMAIP62RNSDV" accepted.
+2021-07-29 20:46:13.528 +01:00 [DBG] Connection id "0HMAIP62RNSE0" accepted.
+2021-07-29 20:46:13.529 +01:00 [DBG] Connection id "0HMAIP62RNSDV" started.
+2021-07-29 20:46:13.529 +01:00 [DBG] Connection id "0HMAIP62RNSE0" started.
+2021-07-29 20:46:13.727 +01:00 [DBG] Connection id "0HMAIP62RNSDV" received FIN.
+2021-07-29 20:46:13.727 +01:00 [DBG] Connection id "0HMAIP62RNSE0" received FIN.
+2021-07-29 20:46:13.787 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 20:46:13.788 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2021-07-29 20:46:14.064 +01:00 [DBG] Connection id "0HMAIP62RNSE0" stopped.
+2021-07-29 20:46:14.064 +01:00 [DBG] Connection id "0HMAIP62RNSDV" stopped.
+2021-07-29 20:46:14.113 +01:00 [DBG] Connection id "0HMAIP62RNSDV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 20:46:14.113 +01:00 [DBG] Connection id "0HMAIP62RNSE0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-07-29 20:46:15.874 +01:00 [DBG] Connection id "0HMAIP62RNSE1" accepted.
+2021-07-29 20:46:15.877 +01:00 [DBG] Connection id "0HMAIP62RNSE1" started.
+2021-07-29 20:46:16.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-07-29 20:46:16.384 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 20:46:16.458 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-29 20:46:16.459 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 20:46:16.573 +01:00 [INF] Request finished in 200.7212ms 200 text/html;charset=utf-8
+2021-07-29 20:46:16.885 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2021-07-29 20:46:16.886 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-29 20:46:16.886 +01:00 [DBG] Request did not match any endpoints
+2021-07-29 20:46:17.056 +01:00 [INF] Request finished in 171.267ms 200 application/json;charset=utf-8
+2021-07-29 21:14:21.467 +01:00 [DBG] Connection id "0HMAIP62RNSE1" received FIN.
+2021-07-29 21:14:21.471 +01:00 [DBG] Connection id "0HMAIP62RNSE1" sending FIN because: "The client closed the connection."
+2021-07-29 21:14:21.476 +01:00 [DBG] Connection id "0HMAIP62RNSE1" is closed. The last processed stream ID was 3.
+2021-07-29 21:14:21.757 +01:00 [DBG] Connection id "0HMAIP62RNSE1" stopped.

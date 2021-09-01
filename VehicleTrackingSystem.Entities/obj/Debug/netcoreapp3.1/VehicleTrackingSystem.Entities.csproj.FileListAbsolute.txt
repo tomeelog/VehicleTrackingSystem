@@ -1,0 +1,9 @@
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.deps.json
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.csprojAssemblyReference.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.AssemblyInfoInputs.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.AssemblyInfo.cs
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Entities\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.pdb

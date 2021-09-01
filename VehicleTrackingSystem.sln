@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{52E21A08-22B6-4BA9-936F-A52414AB9803}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Vehicle-Tracking-System-master\Docs\Database\LogicalDataModel.JPG = ..\..\..\Downloads\Vehicle-Tracking-System-master\Docs\Database\LogicalDataModel.JPG
+		..\..\..\Downloads\Vehicle-Tracking-System-master\Docs\Database\PhysicalDataModel.JPG = ..\..\..\Downloads\Vehicle-Tracking-System-master\Docs\Database\PhysicalDataModel.JPG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0ABBBC70-EE6C-41B1-8160-DC86774326FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{87483CC6-AE96-4AC3-82AE-0192D65FBED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{28DD2CDB-3FD6-478D-BF54-2A309D55A08F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.Security", "VehicleTrackingSystem.Security\VehicleTrackingSystem.Security.csproj", "{D49741AC-6723-42BF-B8B8-365928AA935B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1A312F31-652C-4BB2-A89D-B68322790F0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.API", "VehicleTrackingSystem.API\VehicleTrackingSystem.API.csproj", "{59EF2866-5BB8-4893-8A4B-E140CC4723FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.CustomObjects", "VehicleTrackingSystem.CustomObjects\VehicleTrackingSystem.CustomObjects.csproj", "{DC76F12C-8BEC-4EBC-B706-850C5B3999A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{45627A8A-F207-4227-9DAA-68C096209161}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.DataAccess", "VehicleTrackingSystem.DataAccess\VehicleTrackingSystem.DataAccess.csproj", "{2B9C9E84-0594-4568-8C49-FB4AEE295D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.Entities", "VehicleTrackingSystem.Entities\VehicleTrackingSystem.Entities.csproj", "{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.Domain", "VehicleTrackingSystem.Domain\VehicleTrackingSystem.Domain.csproj", "{7FE39779-D73A-44EF-9365-FF6F5924BD6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.Validation", "VehicleTrackingSystem.Validation\VehicleTrackingSystem.Validation.csproj", "{4E6958F5-7256-406F-9243-26EFFE4AE46A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.Utilities", "VehicleTrackingSystem.Utilities\VehicleTrackingSystem.Utilities.csproj", "{4973FF37-AE56-4397-AF06-DDA4804A7254}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTrackingSystem.UnitTest", "VehicleTrackingSystem.UnitTest\VehicleTrackingSystem.UnitTest.csproj", "{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28E28017-F2AD-4A8B-9E88-823A86F459BB}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D49741AC-6723-42BF-B8B8-365928AA935B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49741AC-6723-42BF-B8B8-365928AA935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49741AC-6723-42BF-B8B8-365928AA935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49741AC-6723-42BF-B8B8-365928AA935B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EF2866-5BB8-4893-8A4B-E140CC4723FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EF2866-5BB8-4893-8A4B-E140CC4723FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EF2866-5BB8-4893-8A4B-E140CC4723FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EF2866-5BB8-4893-8A4B-E140CC4723FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC76F12C-8BEC-4EBC-B706-850C5B3999A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC76F12C-8BEC-4EBC-B706-850C5B3999A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC76F12C-8BEC-4EBC-B706-850C5B3999A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC76F12C-8BEC-4EBC-B706-850C5B3999A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9C9E84-0594-4568-8C49-FB4AEE295D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9C9E84-0594-4568-8C49-FB4AEE295D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9C9E84-0594-4568-8C49-FB4AEE295D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9C9E84-0594-4568-8C49-FB4AEE295D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE39779-D73A-44EF-9365-FF6F5924BD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE39779-D73A-44EF-9365-FF6F5924BD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE39779-D73A-44EF-9365-FF6F5924BD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE39779-D73A-44EF-9365-FF6F5924BD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6958F5-7256-406F-9243-26EFFE4AE46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6958F5-7256-406F-9243-26EFFE4AE46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6958F5-7256-406F-9243-26EFFE4AE46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6958F5-7256-406F-9243-26EFFE4AE46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4973FF37-AE56-4397-AF06-DDA4804A7254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4973FF37-AE56-4397-AF06-DDA4804A7254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4973FF37-AE56-4397-AF06-DDA4804A7254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4973FF37-AE56-4397-AF06-DDA4804A7254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28DD2CDB-3FD6-478D-BF54-2A309D55A08F} = {87483CC6-AE96-4AC3-82AE-0192D65FBED6}
+		{D49741AC-6723-42BF-B8B8-365928AA935B} = {28DD2CDB-3FD6-478D-BF54-2A309D55A08F}
+		{1A312F31-652C-4BB2-A89D-B68322790F0D} = {87483CC6-AE96-4AC3-82AE-0192D65FBED6}
+		{59EF2866-5BB8-4893-8A4B-E140CC4723FB} = {1A312F31-652C-4BB2-A89D-B68322790F0D}
+		{DC76F12C-8BEC-4EBC-B706-850C5B3999A2} = {1A312F31-652C-4BB2-A89D-B68322790F0D}
+		{2B9C9E84-0594-4568-8C49-FB4AEE295D9B} = {45627A8A-F207-4227-9DAA-68C096209161}
+		{9D8BFB55-451F-47F7-BBF3-0B2B98DC6B0D} = {1A312F31-652C-4BB2-A89D-B68322790F0D}
+		{7FE39779-D73A-44EF-9365-FF6F5924BD6F} = {1A312F31-652C-4BB2-A89D-B68322790F0D}
+		{4E6958F5-7256-406F-9243-26EFFE4AE46A} = {1A312F31-652C-4BB2-A89D-B68322790F0D}
+		{4973FF37-AE56-4397-AF06-DDA4804A7254} = {28DD2CDB-3FD6-478D-BF54-2A309D55A08F}
+		{43E29B7B-4147-47FC-AEF6-9CBEEE8CFB52} = {0ABBBC70-EE6C-41B1-8160-DC86774326FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50BDE43B-6CD7-4788-88FB-8F0D828F5282}
+	EndGlobalSection
+EndGlobal

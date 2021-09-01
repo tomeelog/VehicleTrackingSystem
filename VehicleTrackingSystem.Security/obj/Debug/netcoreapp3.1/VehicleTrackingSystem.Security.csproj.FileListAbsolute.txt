@@ -1,0 +1,14 @@
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.deps.json
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.csprojAssemblyReference.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.AssemblyInfoInputs.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.AssemblyInfo.cs
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.CustomObjects.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.CustomObjects.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\bin\Debug\netcoreapp3.1\VehicleTrackingSystem.Entities.pdb
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.csproj.CoreCompileInputs.cache
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.csproj.CopyComplete
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.dll
+C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.Security\obj\Debug\netcoreapp3.1\VehicleTrackingSystem.Security.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EiT5vvrdDfwJU4ArREioCJn42qVcjG6NYRq5F4ZSnPheefKPNiv2rIOP6zQN+n9NFJ3W1qh+RZUiIlGFYtdLEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samuelbabalola\\source\\repos\\VehicleTrackingSystem\\VehicleTrackingSystem.CustomObjects\\VehicleTrackingSystem.CustomObjects.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samuelbabalola\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\samuelbabalola\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\samuelbabalola\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\samuelbabalola\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

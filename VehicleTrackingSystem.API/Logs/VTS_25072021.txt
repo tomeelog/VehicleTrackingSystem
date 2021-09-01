@@ -1,0 +1,841 @@
+2021-07-25 16:11:44.663 +01:00 [DBG] Hosting starting
+2021-07-25 16:11:44.852 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:11:44.860 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:11:44.894 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:11:44.906 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:11:44.906 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:11:44.913 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:11:44.917 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:11:44.917 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:11:44.917 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:11:44.924 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:11:44.933 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:11:44.935 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:11:44.937 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:11:44.941 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:11:44.944 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:11:44.947 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:11:44.947 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:11:45.138 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:11:45.139 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:11:45.139 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:11:45.139 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:11:45.139 +01:00 [DBG] Hosting started
+2021-07-25 16:11:45.255 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:11:45.586 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:11:45.654 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:11:45.654 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:11:45.688 +01:00 [INF] Request finished in 437.2101ms 404 
+2021-07-25 16:16:12.202 +01:00 [DBG] Hosting starting
+2021-07-25 16:16:13.775 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:16:13.782 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:16:13.818 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:16:13.819 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:16:13.820 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:16:13.824 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:16:13.828 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:16:13.828 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:16:13.828 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:16:13.837 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:16:13.844 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:16:13.846 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:16:13.848 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:16:13.851 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:16:13.854 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:16:13.856 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:16:13.857 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:16:14.309 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:16:14.310 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:16:14.310 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:16:14.310 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:16:14.310 +01:00 [DBG] Hosting started
+2021-07-25 16:16:14.394 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:16:14.427 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:16:14.457 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:16:14.457 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:14.479 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:16:14.501 +01:00 [INF] Request finished in 109.0444ms 404 
+2021-07-25 16:16:22.882 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:16:22.883 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:16:22.883 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:22.887 +01:00 [INF] Request finished in 5.3491ms 301 
+2021-07-25 16:16:23.244 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:16:23.245 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:16:23.245 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:23.350 +01:00 [INF] Request finished in 106.8249ms 200 text/html;charset=utf-8
+2021-07-25 16:16:23.482 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:16:23.483 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:16:23.483 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:16:23.483 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:16:23.499 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:16:23.499 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:23.499 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:23.499 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:16:23.499 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:23.717 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:16:23.717 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:16:23.717 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:16:23.730 +01:00 [INF] Request finished in 247.0257ms 200 application/javascript
+2021-07-25 16:16:23.748 +01:00 [INF] Request finished in 266.1068ms 200 text/css
+2021-07-25 16:16:23.748 +01:00 [INF] Request finished in 265.8026ms 200 application/javascript
+2021-07-25 16:16:23.970 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:16:23.970 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:16:23.970 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:23.987 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Conflicting method/path combination "POST api/Auth/Register" for actions - VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API),VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-25 16:16:24.002 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/favicon-32x32.png  
+2021-07-25 16:16:24.118 +01:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2021-07-25 16:16:24.118 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:16:24.119 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-25 16:16:24.120 +01:00 [INF] Request finished in 118.1531ms 200 image/png
+2021-07-25 16:16:24.125 +01:00 [INF] Request finished in 155.4112ms 500 text/plain
+2021-07-25 16:17:53.186 +01:00 [DBG] Hosting starting
+2021-07-25 16:17:53.385 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:17:53.393 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:17:53.427 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:17:53.429 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:17:53.430 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:17:53.436 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:17:53.463 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:17:53.550 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:17:53.550 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:17:53.557 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:17:53.565 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:17:53.567 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:17:53.569 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:17:53.573 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:17:53.576 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:17:53.579 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:17:53.580 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:17:53.836 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:17:53.837 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:17:53.837 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:17:53.837 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:17:53.837 +01:00 [DBG] Hosting started
+2021-07-25 16:17:53.929 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:17:53.931 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:17:53.966 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:17:53.966 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:53.986 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:17:54.009 +01:00 [INF] Request finished in 83.0057ms 404 
+2021-07-25 16:17:59.225 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:17:59.226 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:17:59.227 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.232 +01:00 [INF] Request finished in 5.7432ms 301 
+2021-07-25 16:17:59.292 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:17:59.292 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:17:59.293 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.336 +01:00 [INF] Request finished in 43.7443ms 200 text/html;charset=utf-8
+2021-07-25 16:17:59.410 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:17:59.410 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:17:59.410 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.412 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:17:59.412 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:17:59.412 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:17:59.412 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:17:59.412 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.412 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.628 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:17:59.648 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:17:59.650 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:17:59.656 +01:00 [INF] Request finished in 244.6667ms 200 application/javascript
+2021-07-25 16:17:59.656 +01:00 [INF] Request finished in 244.6438ms 200 application/javascript
+2021-07-25 16:17:59.656 +01:00 [INF] Request finished in 246.5092ms 200 text/css
+2021-07-25 16:17:59.828 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:17:59.829 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:17:59.829 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:17:59.845 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Conflicting method/path combination "POST api/Auth/Register" for actions - VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API),VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-25 16:17:59.940 +01:00 [INF] Request finished in 112.3702ms 500 text/plain
+2021-07-25 16:18:52.262 +01:00 [DBG] Hosting starting
+2021-07-25 16:18:52.468 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:18:52.480 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:18:52.519 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:18:52.520 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:18:52.521 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:18:52.528 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:18:52.531 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:18:52.531 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:18:52.532 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:18:52.539 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:18:52.548 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:18:52.551 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:18:52.553 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:18:52.556 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:18:52.560 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:18:52.563 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:18:52.564 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:18:52.852 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:18:52.916 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:18:52.917 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:18:52.917 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:18:52.917 +01:00 [DBG] Hosting started
+2021-07-25 16:18:52.954 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:18:52.957 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:18:52.981 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:18:52.982 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:53.002 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:18:53.029 +01:00 [INF] Request finished in 78.1712ms 404 
+2021-07-25 16:18:53.909 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:18:53.910 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:18:53.910 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:53.915 +01:00 [INF] Request finished in 5.3024ms 301 
+2021-07-25 16:18:53.918 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:18:53.918 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:18:53.918 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:53.991 +01:00 [INF] Request finished in 72.5921ms 200 text/html;charset=utf-8
+2021-07-25 16:18:54.050 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:18:54.050 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:18:54.050 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:54.054 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:18:54.054 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:18:54.054 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:18:54.054 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:18:54.054 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:54.054 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:54.256 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:18:54.256 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:18:54.256 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:18:54.263 +01:00 [INF] Request finished in 208.7416ms 200 application/javascript
+2021-07-25 16:18:54.263 +01:00 [INF] Request finished in 212.5997ms 200 text/css
+2021-07-25 16:18:54.263 +01:00 [INF] Request finished in 208.7351ms 200 application/javascript
+2021-07-25 16:18:54.436 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:18:54.436 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:18:54.437 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:18:54.454 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Conflicting method/path combination "POST api/Auth/Register" for actions - VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API),VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-25 16:18:54.531 +01:00 [INF] Request finished in 95.3622ms 500 text/plain
+2021-07-25 16:19:42.996 +01:00 [DBG] Hosting starting
+2021-07-25 16:19:43.184 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:19:43.193 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:19:43.228 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:19:43.229 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:19:43.229 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:19:43.237 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:19:43.241 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:19:43.241 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:19:43.241 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:19:43.248 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:19:43.257 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:19:43.260 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:19:43.262 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:19:43.265 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:19:43.268 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:19:43.272 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:19:43.272 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:19:43.507 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:19:43.508 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:19:43.508 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:19:43.508 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:19:43.508 +01:00 [DBG] Hosting started
+2021-07-25 16:19:43.603 +01:00 [DBG] Connection ID "18374686494167138344" disconnecting.
+2021-07-25 16:19:43.616 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:19:43.616 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:19:43.620 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:19:43.620 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:19:43.645 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:19:43.645 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:19:43.645 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.645 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.665 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:19:43.668 +01:00 [INF] Request finished in 54.3272ms 0 
+2021-07-25 16:19:43.700 +01:00 [DBG] Connection ID "18158513699168452619" disconnecting.
+2021-07-25 16:19:43.708 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:19:43.709 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:19:43.709 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.710 +01:00 [INF] Request finished in 96.3557ms 301 
+2021-07-25 16:19:43.746 +01:00 [INF] Request finished in 37.2192ms 200 text/html;charset=utf-8
+2021-07-25 16:19:43.767 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:19:43.767 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:19:43.768 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:19:43.768 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.767 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:19:43.767 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:19:43.768 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:19:43.768 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.768 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:43.970 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:19:43.970 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:19:43.970 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:19:43.975 +01:00 [INF] Request finished in 208.3211ms 200 text/css
+2021-07-25 16:19:43.975 +01:00 [INF] Request finished in 208.3357ms 200 application/javascript
+2021-07-25 16:19:43.975 +01:00 [INF] Request finished in 208.3413ms 200 application/javascript
+2021-07-25 16:19:44.153 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:19:44.744 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:19:44.744 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:19:44.819 +01:00 [INF] Request finished in 665.5939ms 200 application/json;charset=utf-8
+2021-07-25 16:20:40.631 +01:00 [DBG] Hosting starting
+2021-07-25 16:20:41.560 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:20:41.572 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:20:41.614 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:20:41.615 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:20:41.616 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:20:41.623 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:20:41.626 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:20:41.627 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:20:41.627 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:20:41.635 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:20:41.646 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:20:41.649 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:20:41.651 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:20:41.655 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:20:41.658 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:20:41.664 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:20:41.665 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:20:41.972 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:20:41.972 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:20:41.972 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:20:41.972 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:20:41.972 +01:00 [DBG] Hosting started
+2021-07-25 16:20:42.073 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:20:42.076 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:20:42.107 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:20:42.107 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:42.126 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:20:42.150 +01:00 [INF] Request finished in 79.8888ms 404 
+2021-07-25 16:20:46.012 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:20:46.012 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:20:46.013 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.018 +01:00 [INF] Request finished in 6.0081ms 301 
+2021-07-25 16:20:46.029 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:20:46.029 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:20:46.029 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.102 +01:00 [INF] Request finished in 73.866ms 200 text/html;charset=utf-8
+2021-07-25 16:20:46.150 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:20:46.150 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:20:46.150 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:20:46.150 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:20:46.150 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:20:46.150 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:20:46.150 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.150 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.150 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.289 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:20:46.289 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:20:46.289 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:20:46.296 +01:00 [INF] Request finished in 145.8106ms 200 application/javascript
+2021-07-25 16:20:46.296 +01:00 [INF] Request finished in 146.0267ms 200 application/javascript
+2021-07-25 16:20:46.296 +01:00 [INF] Request finished in 145.9036ms 200 text/css
+2021-07-25 16:20:46.488 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:20:46.489 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:20:46.490 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:20:46.582 +01:00 [INF] Request finished in 93.9683ms 200 application/json;charset=utf-8
+2021-07-25 16:21:43.021 +01:00 [DBG] Hosting starting
+2021-07-25 16:21:43.218 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:21:43.227 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:21:43.262 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:21:43.263 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:21:43.264 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:21:43.270 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:21:43.273 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:21:43.273 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:21:43.273 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:21:43.281 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:21:43.288 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:21:43.290 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:21:43.293 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:21:43.296 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:21:43.300 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:21:43.303 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:21:43.304 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:21:43.564 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:21:43.632 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:21:43.633 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:21:43.633 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:21:43.633 +01:00 [DBG] Hosting started
+2021-07-25 16:21:43.642 +01:00 [DBG] Connection ID "18230571310386249767" disconnecting.
+2021-07-25 16:21:43.673 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:21:43.673 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:21:43.676 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:21:43.676 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:21:43.725 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:21:43.725 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:21:43.725 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:43.725 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:43.745 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:21:43.748 +01:00 [INF] Request finished in 78.5832ms 0 
+2021-07-25 16:21:43.778 +01:00 [DBG] Connection ID "18302628913014112329" disconnecting.
+2021-07-25 16:21:43.781 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:21:43.781 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:21:43.782 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:43.790 +01:00 [INF] Request finished in 121.1812ms 301 
+2021-07-25 16:21:43.825 +01:00 [INF] Request finished in 44.1589ms 200 text/html;charset=utf-8
+2021-07-25 16:21:43.848 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:21:43.848 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:21:43.849 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:21:43.849 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:21:43.849 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:43.849 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:21:43.849 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:21:43.849 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:43.849 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:44.063 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:21:44.063 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:21:44.063 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:21:44.092 +01:00 [INF] Request finished in 244.4369ms 200 application/javascript
+2021-07-25 16:21:44.092 +01:00 [INF] Request finished in 244.4284ms 200 application/javascript
+2021-07-25 16:21:44.092 +01:00 [INF] Request finished in 243.483ms 200 text/css
+2021-07-25 16:21:44.274 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:21:44.274 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:21:44.274 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:21:44.364 +01:00 [INF] Request finished in 90.3891ms 200 application/json;charset=utf-8
+2021-07-25 16:22:10.825 +01:00 [DBG] Hosting starting
+2021-07-25 16:22:11.024 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:22:11.034 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:22:11.072 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:22:11.073 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:22:11.074 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:22:11.081 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:22:11.085 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:22:11.086 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:22:11.086 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:22:11.094 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:22:11.103 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:22:11.105 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:22:11.107 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:22:11.111 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:22:11.115 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:22:11.119 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:22:11.120 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:22:11.417 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:22:11.418 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:22:11.418 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:22:11.418 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:22:11.418 +01:00 [DBG] Hosting started
+2021-07-25 16:22:11.502 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:22:11.577 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:22:11.621 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:22:11.622 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:11.647 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:22:11.675 +01:00 [INF] Request finished in 176.881ms 404 
+2021-07-25 16:22:19.659 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:22:19.660 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:22:19.661 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:19.665 +01:00 [INF] Request finished in 5.9886ms 301 
+2021-07-25 16:22:19.669 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:22:19.670 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:22:19.670 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:19.703 +01:00 [INF] Request finished in 34.0495ms 200 text/html;charset=utf-8
+2021-07-25 16:22:19.803 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:22:19.803 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:22:19.803 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:22:19.803 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:22:19.803 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:19.804 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:19.804 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:22:19.804 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:22:19.804 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:19.978 +01:00 [DBG] Connection ID "18374686511347007559" disconnecting.
+2021-07-25 16:22:19.986 +01:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2021-07-25 16:22:19.987 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:22:19.987 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:22:20.044 +01:00 [INF] Request finished in 240.4465ms 200 application/javascript
+2021-07-25 16:22:20.044 +01:00 [INF] Request finished in 241.3213ms 200 text/css
+2021-07-25 16:22:20.919 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:22:21.003 +01:00 [INF] Request finished in 1199.3475ms 200 application/javascript
+2021-07-25 16:22:23.505 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:22:23.506 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:22:23.506 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:23.508 +01:00 [INF] Request finished in 2.609ms 200 text/html;charset=utf-8
+2021-07-25 16:22:23.522 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:22:23.523 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:22:23.523 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:23.527 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:22:23.528 +01:00 [INF] Request finished in 5.1211ms 200 application/javascript
+2021-07-25 16:22:23.614 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:22:23.615 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:22:23.615 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:23.653 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/favicon-32x32.png  
+2021-07-25 16:22:23.653 +01:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2021-07-25 16:22:23.653 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:22:23.654 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-25 16:22:23.654 +01:00 [INF] Request finished in 1.0171ms 200 image/png
+2021-07-25 16:22:23.695 +01:00 [INF] Request finished in 80.491ms 200 application/json;charset=utf-8
+2021-07-25 16:40:16.599 +01:00 [DBG] Hosting starting
+2021-07-25 16:40:16.800 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:40:16.808 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:40:16.844 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:40:16.845 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:40:16.846 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:40:16.851 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:40:16.877 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:40:16.917 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:40:16.917 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:40:16.925 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:40:16.932 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:40:16.935 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:40:16.937 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:40:16.940 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:40:16.944 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:40:16.947 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:40:16.947 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:40:17.227 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:40:17.227 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:40:17.227 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:40:17.227 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:40:17.227 +01:00 [DBG] Hosting started
+2021-07-25 16:40:17.353 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:40:17.357 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:40:17.389 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:40:17.390 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:17.410 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:40:17.434 +01:00 [INF] Request finished in 83.271ms 404 
+2021-07-25 16:40:35.180 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:40:35.181 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:40:35.181 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:35.185 +01:00 [INF] Request finished in 4.8943ms 301 
+2021-07-25 16:40:35.207 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:40:35.230 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:40:35.230 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:35.230 +01:00 [DBG] Connection ID "18158513720643289097" disconnecting.
+2021-07-25 16:40:35.266 +01:00 [INF] Request finished in 59.3286ms 200 text/html;charset=utf-8
+2021-07-25 16:40:35.324 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:40:35.325 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:40:35.325 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:35.325 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:40:35.325 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:40:35.325 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:35.326 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:40:35.326 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:40:35.326 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:35.401 +01:00 [DBG] Connection ID "18230571318976184324" disconnecting.
+2021-07-25 16:40:35.510 +01:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2021-07-25 16:40:35.512 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:40:35.512 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:40:35.573 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:40:35.575 +01:00 [INF] Request finished in 250.4518ms 200 text/css
+2021-07-25 16:40:35.575 +01:00 [INF] Request finished in 249.1678ms 200 application/javascript
+2021-07-25 16:40:35.575 +01:00 [INF] Request finished in 249.8819ms 200 application/javascript
+2021-07-25 16:40:40.029 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:40:40.030 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:40:40.030 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:40.034 +01:00 [INF] Request finished in 5.5707ms 200 text/html;charset=utf-8
+2021-07-25 16:40:40.054 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:40:40.055 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:40:40.055 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:40.071 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:40:40.071 +01:00 [INF] Request finished in 17.0638ms 200 application/javascript
+2021-07-25 16:40:40.229 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:40:40.229 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:40:40.229 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:40.268 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/favicon-32x32.png  
+2021-07-25 16:40:40.268 +01:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2021-07-25 16:40:40.268 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:40:40.269 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-25 16:40:40.270 +01:00 [INF] Request finished in 1.546ms 200 image/png
+2021-07-25 16:40:40.327 +01:00 [INF] Request finished in 98.466ms 200 application/json;charset=utf-8
+2021-07-25 16:41:19.278 +01:00 [INF] Request starting HTTP/2.0 POST https://localhost:44350/api/Auth/Register application/json 196
+2021-07-25 16:41:19.290 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Register'
+2021-07-25 16:41:19.294 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Register' is valid for the request path '/api/Auth/Register'
+2021-07-25 16:41:19.295 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API)'
+2021-07-25 16:41:19.296 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API)'
+2021-07-25 16:41:19.308 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-25 16:41:19.338 +01:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Abstraction.ServerResponse]] Register(VehicleTrackingSystem.CustomObjects.Domain.UserViewModel) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-25 16:41:19.338 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-25 16:41:19.339 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-25 16:41:19.339 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-25 16:41:19.339 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-25 16:41:19.339 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-25 16:41:19.340 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-25 16:41:19.485 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-25 16:41:19.505 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-25 16:41:19.510 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' ...
+2021-07-25 16:41:19.512 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' using the name '' in request data ...
+2021-07-25 16:41:19.512 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-25 16:41:19.521 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'
+2021-07-25 16:41:19.522 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:41:19.522 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:41:19.522 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' ...
+2021-07-25 16:41:19.525 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:41:21.250 +01:00 [INF] Executing action method VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API) - Validation state: "Valid"
+2021-07-25 16:41:49.295 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-25 16:41:49.533 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-25 16:41:49.568 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-25 16:41:49.616 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (43ms).
+2021-07-25 16:41:49.623 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:41:50.218 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:41:50.229 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-25 16:41:50.295 +01:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-25 16:41:50.312 +01:00 [DBG] A data reader was disposed.
+2021-07-25 16:41:50.316 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:41:50.324 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:44:13.559 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingCommandsContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-25 16:44:15.427 +01:00 [DBG] 'VehicleTrackingCommandsContext' generated a temporary value for the 'UserId' property of new 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-25 16:44:16.587 +01:00 [DBG] Context 'VehicleTrackingCommandsContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-25 16:44:20.384 +01:00 [DBG] SaveChanges starting for 'VehicleTrackingCommandsContext'.
+2021-07-25 16:44:20.386 +01:00 [DBG] DetectChanges starting for 'VehicleTrackingCommandsContext'.
+2021-07-25 16:44:20.395 +01:00 [DBG] DetectChanges completed for 'VehicleTrackingCommandsContext'.
+2021-07-25 16:44:20.406 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:44:20.407 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:44:20.408 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-07-25 16:44:20.435 +01:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-07-25 16:44:20.486 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-25 16:44:20.486 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-07-25 16:44:20.494 +01:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 10), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Email], [MobileNumber], [Name], [Password], [UserName], [UserTypeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [UserId]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2021-07-25 16:44:20.593 +01:00 [INF] Executed DbCommand (103ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 10), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [User] ([Email], [MobileNumber], [Name], [Password], [UserName], [UserTypeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [UserId]
+FROM [User]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2021-07-25 16:44:20.615 +01:00 [DBG] Foreign key property 'User.UserId' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2021-07-25 16:44:20.624 +01:00 [DBG] A data reader was disposed.
+2021-07-25 16:44:20.626 +01:00 [DBG] Committing transaction.
+2021-07-25 16:44:20.630 +01:00 [DBG] Committing transaction.
+2021-07-25 16:44:20.631 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:44:20.631 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:44:20.633 +01:00 [DBG] Disposing transaction.
+2021-07-25 16:44:20.650 +01:00 [DBG] An 'User' entity tracked by 'VehicleTrackingCommandsContext' changed from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-25 16:44:20.653 +01:00 [DBG] SaveChanges completed for 'VehicleTrackingCommandsContext' with 1 entities written to the database.
+2021-07-25 16:45:47.261 +01:00 [INF] Executed action method VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 266006.0123ms.
+2021-07-25 16:45:47.266 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-07-25 16:45:47.268 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-07-25 16:45:47.268 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-07-25 16:45:47.268 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-25 16:45:47.269 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-25 16:45:47.269 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-25 16:45:47.269 +01:00 [INF] Executing ObjectResult, writing value of type 'VehicleTrackingSystem.CustomObjects.Abstraction.ServerResponse'.
+2021-07-25 16:45:51.619 +01:00 [INF] Executed action VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API) in 272276.1653ms
+2021-07-25 16:45:51.663 +01:00 [INF] Executed endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Register (VehicleTrackingSystem.API)'
+2021-07-25 16:45:51.670 +01:00 [INF] Request finished in 272392.1663ms 200 application/json; charset=utf-8
+2021-07-25 16:55:19.864 +01:00 [DBG] Hosting starting
+2021-07-25 16:55:20.073 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 16:55:20.082 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 16:55:20.119 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 16:55:20.120 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 16:55:20.121 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 16:55:20.128 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 16:55:20.131 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 16:55:20.131 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 16:55:20.131 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 16:55:20.140 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 16:55:20.149 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:55:20.152 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 16:55:20.155 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 16:55:20.158 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 16:55:20.162 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 16:55:20.166 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 16:55:20.166 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 16:55:20.503 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 16:55:20.504 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 16:55:20.504 +01:00 [INF] Hosting environment: Development
+2021-07-25 16:55:20.504 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 16:55:20.504 +01:00 [DBG] Hosting started
+2021-07-25 16:55:20.602 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 16:55:20.606 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 16:55:20.638 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 16:55:20.638 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:20.659 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 16:55:20.685 +01:00 [INF] Request finished in 85.5087ms 404 
+2021-07-25 16:55:37.036 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 16:55:37.037 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 16:55:37.037 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:37.041 +01:00 [INF] Request finished in 6.2262ms 301 
+2021-07-25 16:55:37.044 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:55:37.044 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:55:37.044 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:37.077 +01:00 [INF] Request finished in 33.1888ms 200 text/html;charset=utf-8
+2021-07-25 16:55:37.164 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:55:37.164 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 16:55:37.164 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:55:37.164 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 16:55:37.165 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 16:55:37.165 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:37.164 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 16:55:37.164 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:37.165 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:37.242 +01:00 [DBG] Connection ID "18302628900129210412" disconnecting.
+2021-07-25 16:55:37.318 +01:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2021-07-25 16:55:37.319 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 16:55:37.319 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 16:55:37.378 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:55:38.430 +01:00 [INF] Request finished in 1265.9245ms 200 application/javascript
+2021-07-25 16:55:38.430 +01:00 [INF] Request finished in 1265.9648ms 200 text/css
+2021-07-25 16:55:38.430 +01:00 [INF] Request finished in 1265.9637ms 200 application/javascript
+2021-07-25 16:55:43.526 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 16:55:43.526 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 16:55:43.527 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:43.529 +01:00 [INF] Request finished in 2.8751ms 200 text/html;charset=utf-8
+2021-07-25 16:55:43.545 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 16:55:43.546 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 16:55:43.546 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:43.555 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 16:55:43.555 +01:00 [INF] Request finished in 9.6903ms 200 application/javascript
+2021-07-25 16:55:43.689 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 16:55:43.689 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 16:55:43.689 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:43.724 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/favicon-32x32.png  
+2021-07-25 16:55:43.725 +01:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2021-07-25 16:55:43.725 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 16:55:43.725 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-25 16:55:43.725 +01:00 [INF] Request finished in 0.8104ms 200 image/png
+2021-07-25 16:55:43.776 +01:00 [INF] Request finished in 87.9904ms 200 application/json;charset=utf-8
+2021-07-25 16:55:57.113 +01:00 [INF] Request starting HTTP/2.0 POST https://localhost:44350/api/Auth/Login application/json 186
+2021-07-25 16:55:57.123 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2021-07-25 16:55:57.126 +01:00 [DBG] Endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2021-07-25 16:55:57.127 +01:00 [DBG] Request matched endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-25 16:55:57.128 +01:00 [INF] Executing endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-25 16:55:57.136 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-07-25 16:55:57.166 +01:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VehicleTrackingSystem.CustomObjects.Domain.UserViewModel]] Login(VehicleTrackingSystem.CustomObjects.Domain.UserViewModel) on controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API).
+2021-07-25 16:55:57.167 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-25 16:55:57.167 +01:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-07-25 16:55:57.167 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-25 16:55:57.167 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-25 16:55:57.167 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-25 16:55:57.168 +01:00 [DBG] Executing controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-25 16:55:57.302 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-07-25 16:55:57.323 +01:00 [DBG] Executed controller factory for controller VehicleTrackingSystem.API.Controllers.AuthController (VehicleTrackingSystem.API)
+2021-07-25 16:55:57.327 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' ...
+2021-07-25 16:55:57.328 +01:00 [DBG] Attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' using the name '' in request data ...
+2021-07-25 16:55:57.329 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-07-25 16:55:57.337 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'
+2021-07-25 16:55:57.337 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:55:57.337 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:55:57.337 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel' ...
+2021-07-25 16:55:57.340 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:56:18.368 +01:00 [INF] Entity Framework Core 3.1.17 initialized 'VehicleTrackingQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2021-07-25 16:56:18.532 +01:00 [DBG] queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    VehicleTrackingSystem.DataAccess.DbCtx.VehicleTrackingQueriesContext, 
+    null
+)
+2021-07-25 16:56:18.557 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-07-25 16:56:18.595 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (34ms).
+2021-07-25 16:56:18.601 +01:00 [DBG] Opening connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:56:18.938 +01:00 [DBG] Opened connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:56:18.946 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-25 16:56:18.984 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[MobileNumber], [u].[Name], [u].[Password], [u].[UserName], [u].[UserTypeId]
+FROM [User] AS [u]
+2021-07-25 16:56:19.022 +01:00 [DBG] Context 'VehicleTrackingQueriesContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-07-25 16:56:19.045 +01:00 [DBG] A data reader was disposed.
+2021-07-25 16:56:19.049 +01:00 [DBG] Closing connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:56:19.056 +01:00 [DBG] Closed connection to database 'VTSTest' on server 'NGLAGVIAAIT23\DEMODB1'.
+2021-07-25 16:58:28.158 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-07-25 16:58:28.161 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-07-25 16:58:28.161 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-07-25 16:58:28.161 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-25 16:58:28.161 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-25 16:58:28.162 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-25 16:58:28.162 +01:00 [INF] Executing ObjectResult, writing value of type 'VehicleTrackingSystem.CustomObjects.Domain.UserViewModel'.
+2021-07-25 16:58:28.189 +01:00 [INF] Executed action VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API) in 151018.0733ms
+2021-07-25 16:58:28.190 +01:00 [INF] Executed endpoint 'VehicleTrackingSystem.API.Controllers.AuthController.Login (VehicleTrackingSystem.API)'
+2021-07-25 16:58:28.195 +01:00 [INF] Request finished in 151082.2818ms 200 application/json; charset=utf-8
+2021-07-25 20:43:44.477 +01:00 [DBG] Hosting starting
+2021-07-25 20:43:44.873 +01:00 [INF] User profile is available. Using 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-07-25 20:43:44.881 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-3b64c890-5152-48ad-a061-273b39a5fb4f.xml'.
+2021-07-25 20:43:44.959 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-44cbd125-5c07-43d8-9a74-d9548ee0b4e9.xml'.
+2021-07-25 20:43:46.405 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-a528a600-ee03-4ed8-984f-b2dc675cc10b.xml'.
+2021-07-25 20:43:46.407 +01:00 [DBG] Reading data from file 'C:\Users\samuelbabalola\AppData\Local\ASP.NET\DataProtection-Keys\key-b5105d67-e65c-4233-9855-d1094019f4a3.xml'.
+2021-07-25 20:43:46.414 +01:00 [DBG] Found key {3b64c890-5152-48ad-a061-273b39a5fb4f}.
+2021-07-25 20:43:46.417 +01:00 [DBG] Found key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9}.
+2021-07-25 20:43:46.417 +01:00 [DBG] Found key {a528a600-ee03-4ed8-984f-b2dc675cc10b}.
+2021-07-25 20:43:46.417 +01:00 [DBG] Found key {b5105d67-e65c-4233-9855-d1094019f4a3}.
+2021-07-25 20:43:46.424 +01:00 [DBG] Considering key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} with expiration date 2021-09-13 10:37:40Z as default key.
+2021-07-25 20:43:46.431 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 20:43:46.434 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-07-25 20:43:46.436 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-07-25 20:43:46.439 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-07-25 20:43:46.441 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-07-25 20:43:46.444 +01:00 [DBG] Using key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} as the default key.
+2021-07-25 20:43:46.444 +01:00 [DBG] Key ring with default key {44cbd125-5c07-43d8-9a74-d9548ee0b4e9} was loaded during application startup.
+2021-07-25 20:43:46.785 +01:00 [DBG] Loaded hosting startup assembly VehicleTrackingSystem.API
+2021-07-25 20:43:46.786 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-25 20:43:46.786 +01:00 [INF] Hosting environment: Development
+2021-07-25 20:43:46.786 +01:00 [INF] Content root path: C:\Users\samuelbabalola\source\repos\VehicleTrackingSystem\VehicleTrackingSystem.API
+2021-07-25 20:43:46.786 +01:00 [DBG] Hosting started
+2021-07-25 20:43:46.924 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/weatherforecast  
+2021-07-25 20:43:46.927 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-25 20:43:46.954 +01:00 [DBG] No candidates found for the request path '/weatherforecast'
+2021-07-25 20:43:46.984 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:47.001 +01:00 [DBG] The request path  does not match the path filter
+2021-07-25 20:43:47.043 +01:00 [INF] Request finished in 121.2695ms 404 
+2021-07-25 20:43:54.084 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2021-07-25 20:43:54.086 +01:00 [DBG] No candidates found for the request path '/swagger'
+2021-07-25 20:43:54.086 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.111 +01:00 [INF] Request finished in 7.3791ms 301 
+2021-07-25 20:43:54.131 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2021-07-25 20:43:54.152 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-07-25 20:43:54.154 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.172 +01:00 [DBG] Connection ID "18086456105130524676" disconnecting.
+2021-07-25 20:43:54.223 +01:00 [INF] Request finished in 93.7173ms 200 text/html;charset=utf-8
+2021-07-25 20:43:54.260 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2021-07-25 20:43:54.260 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2021-07-25 20:43:54.260 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.264 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2021-07-25 20:43:54.264 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2021-07-25 20:43:54.264 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2021-07-25 20:43:54.264 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2021-07-25 20:43:54.264 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.264 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.412 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-25 20:43:54.412 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-25 20:43:54.428 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-25 20:43:54.432 +01:00 [INF] Request finished in 172.2647ms 200 text/css
+2021-07-25 20:43:54.432 +01:00 [INF] Request finished in 168.7088ms 200 application/javascript
+2021-07-25 20:43:54.432 +01:00 [INF] Request finished in 168.7325ms 200 application/javascript
+2021-07-25 20:43:54.585 +01:00 [INF] Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2021-07-25 20:43:54.585 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-07-25 20:43:54.585 +01:00 [DBG] Request did not match any endpoints
+2021-07-25 20:43:54.662 +01:00 [INF] Request finished in 77.0217ms 200 application/json;charset=utf-8
